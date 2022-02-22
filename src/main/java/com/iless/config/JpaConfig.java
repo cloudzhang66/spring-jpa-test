@@ -27,7 +27,7 @@ public class JpaConfig {
         pp.setProperty("hibernate.connection.driver_class", "com.mysql.jdbc.Driver");
         pp.setProperty("hibernate.connection.url", "jdbc:mysql://192.168.1.80:3306/jpatest");
         pp.setProperty("hibernate.connection.username", "test");
-        pp.setProperty("hibernate.connection.password", "12345678");
+        pp.setProperty("hibernate.connection.password", "123456");
         pp.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
         pp.setProperty("hibernate.connection.provider_class", "org.hibernate.connection.C3P0ConnectionProvider");
         pp.setProperty("hibernate.c3p0.min_size", "1");
